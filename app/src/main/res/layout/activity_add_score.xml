@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtGoalsHomeTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Goals Home Team"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/edtGoalsAwayTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Goals Away Team"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnSaveScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save score" />
+
+    <Button
+        android:id="@+id/btnShowScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show scores" />
+</LinearLayout>
